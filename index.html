@@ -1,162 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualCode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/magnific-popup.css"> 
+    <link rel="stylesheet" href="css/templatemo-ocean-vibes.css"> 
 
-    <title>Andreas Hennings Medieninformatik</title>
+</head>
+<body>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Video banner 400 px height -->
+    <div id="tm-video-container">
+        <video autoplay muted id="tm-video">
+            <source src="video/Logo.webm" type="video/mp4">
+        </video>  
+        <i id="tm-video-control-button" class="fas fa-pause"></i>
+    </div>
+	
+	
+    <div class="tm-container">
+        <nav class="tm-main-nav">
+            <ul id="inline-popups">
+                
+                <li class="tm-nav-item">
+                    <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
+                        Projekte
+                        <i class="far fa-3x fa-images"></i>
+                    </a>
+                </li>
+				
+				
+                <li class="tm-nav-item">
+                    <a href="#testimonials" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Expertise
+                        <i class="fas fa-3x fa-tint"></i>
+                    </a>
+                </li>
+				
+				
+                <li class="tm-nav-item">
+                    <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Über mich
+                        
+						<i class="far fa-3x fa-smile"></i>
+                    </a>
+                </li>
+				
+				
+                <li class="tm-nav-item">
+                    <a href="#contact" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Kontakt
+                        <i class="far fa-3x fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
-  </head>
-
-  <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/me.png" alt="" /></a>
-            </div>
-            <div class="author-content">
-              <h4>VirtualCode.de</h4>
-              <span>3D Design, Coding, Game Design</span>
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">Überblick</a></li>
-                <li><a href="#section2">Expertise</a></li>
-                <li><a href="#section3">Projekte</a></li>
-                <li><a href="#section4">Kontakt</a></li>
-              </ul>
-            </nav>
-            
+        
+        <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
 			
-            <div class="copyright-text">
-              <p>Copyright 2021 VirtualCode.de</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Überblick</h2>
-            <div class="line-dec"></div>
-            <span>
-			VirtualCode.de bietet einen Überblick über die Projekte von Andreas Hennings.
-			</span>
-          </div>
-          <div class="left-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/ai.jpg" alt="" />
+            <div class="tm-row tm-gallery-row">			
+                <div class="tm-gallery">
+                    <div class="tm-gallery-container">   
+					
+                        <figure class="effect-chico tm-gallery-item design">
+                            <img
+							  src="assets/images/Mühle.png"
+							  alt="image"
+							/>					
+							<figcaption>
+								<a href="https://andreashennings.github.io/River/">
+									<h4>River</h4>
+								</a>
+							</figcaption>		
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item design">
+                            <img
+								src="assets/images/Fountainpen.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+								<a href="https://andreashennings.github.io/Fountainpen/">
+                        
+									<h4>Fountainpen</h4>
+						
+								</a>
+							</figcaption>
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item animation">
+                            <img
+								src="assets/images/Vulcano.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+								<a href="https://andreashennings.github.io/Vulcano/">
+                        
+									<h4>Vulcano</h4>
+						
+								</a>
+							</figcaption>	
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item design">
+                            <img
+								src="assets/images/Armor3.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+								<a href="https://andreashennings.github.io/Armor/">
+                        
+									<h4>Armor</h4>
+						
+								</a>
+							</figcaption>				
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item animation">
+                            <img
+								src="assets/images/BG2.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Berchtesgaden/">
+                        
+								<h4>Berchtesgaden</h4>
+							</a>
+							</figcaption>					
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item design">
+                            <img
+								src="assets/images/wine.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Wine/">
+                        
+								<h4>Wine</h4>
+						
+							</a>
+							</figcaption>
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item simulation">
+                            <img
+								src="assets/images/Billard.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Billard/">
+                        
+								<h4>Billard</h4>
+						
+							</a>
+							</figcaption>		
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item design">
+                            <img
+								src="assets/images/coffee.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Coffee/">
+                        
+							<h4>Coffee</h4>
+						
+							</a>
+							</figcaption>			
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item design animation">
+                            <img
+								src="assets/images/sword.jpg"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Dragonsword/">
+                        
+							<h4>Dragonsword</h4>
+						
+							</a>
+							</figcaption>			
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item simulation">
+                            <img
+								src="assets/images/Dialogue.PNG"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/At_The_Club/">
+                        
+							<h4>At the Club</h4>
+						
+							</a>
+							</figcaption>				
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item spiel">
+                            <img
+								src="assets/images/Escape.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Escape/">
+                        
+							<h4>Escape</h4>
+						
+							</a>
+							</figcaption>			
+                        </figure>
+                       
+						
+                        <figure class="effect-chico tm-gallery-item anwendung">
+                            <img
+								src="assets/images/vafa.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://andreashennings.github.io/Visual-Appearance-from-Audio/">
+                        
+						
+							</a>
+							</figcaption>		
+                        </figure>
+						
+						
+                        <figure class="effect-chico tm-gallery-item anwendung">
+                            <img
+								src="assets/images/Giesskalender.png"
+								alt="image"
+							/>
+					
+							<figcaption>
+							<a href="https://uniregensburg.github.io/ase-abschlussprojekte-ws1920-giesskalender/">
+                        
+							<h4>Giesskalender</h4>
+						
+							</a>
+							</figcaption>		
+                        </figure>
+                       
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4>Andreas Hennings</h4>
-                  <p>ist Medieninformatiker und 3D Designer.</p>				  
-				  <p>Er hat an der Universität Regensburg studiert, unterrichtet und gearbeitet</p>
-							  
-				  <!--
-                  <div class="white-button">
-                    <a href="#">Read More</a>
-                  </div>
-				  -->
+		
+                <!-- Gallery navigation and description -->
+                <div class="tm-col tm-gallery-right">
+                    <h2 class="tm-color-primary tm-mt-35 tm-page-title">Gallery</h2>
+                    <div class="tm-gallery-right-inner">
+                        <ul class="tm-gallery-links">
+                            <li>
+                                <a href="#" class="active tm-gallery-link" data-filter="*">
+                                    
+                                   <strong> Alle </strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-gallery-link" data-filter="design">
+                                    
+                                    Design
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-gallery-link" data-filter="animation">
+                                    
+                                    Animation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-gallery-link" data-filter="simulation">
+                                    
+                                    Simulation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-gallery-link" data-filter="anwendung">
+                                    
+                                    Anwendung
+                                </a>
+                            </li>
+							
+							<li>
+                                <a href="#" class="tm-gallery-link" data-filter="spiel">
+                                    
+                                    Spiel
+                                </a>
+                            </li>
+                        </ul>
+                        <p>
+                            Wählen Sie ein Projekt aus. Durch Anklicken werden Sie auf die
+							dazugehörige Projektseite weitergeleitet.
+                        </p>
+                        <p>
+                            Dort finden Sie detaillierte Informationen und können die Projektdateien herunterladen.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-		  
-          
         </div>
-      </section>
 
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Expertise</h2>
-            <div class="line-dec"></div>
-            <span>
+        <div id="testimonials" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="tm-testimonials-inner">
+                <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">Expertise</h2>
+				<p class="tm-color-gray tm-testimonial-col">
 			  Mich faszinieren die unendlichen Möglichkeiten zum kreativen Arbeiten, die die heute verfügbare Technologie bietet.
-			</span>
-			<p></p>
-			<span>
-			  Hier ist eine Übersicht der Schwerpunkte meiner Arbeit:
-			</span>
-			<p></p>
-			
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">               
-                <h4>3D Design</h4>
-                <p>Erstellung realistischer Modelle aus Bildvorlagen</p>
-				<p>Eigene Designs für Objekte, Avatare, Architektur und Landschaften</p>
-				<p>LowPoly Modellierung für GameEngines</p>
-				<p>Erstellung und Bearbeitung von Meshes aus Photogrammetrie- und Satellitendaten</p>
-				<p>UV Editing und Sculpting</p>
-			  </div>
-            </div>
-			
-            <div class="col-md-6">
-              <div class="service-item">
-                <h4>Materialien und Shader</h4>
-                <p>Texture Painting</p>
-				<p>Erstellung prozeduraler Materialien mit Shader Nodes in Blender und Unity</p>
-				<p>Bearbeitung und Verwendung von PBR Materialien</p>
-				<p>Lighting, Compositing und Post Processing</p>
-				<p>Cycles und Eeevee Rendering in Blender</p>
-				<p>Universal- und HighDefinition Render Pipeline in Unity</p>
-              </div>
-            </div>
-            
-			<div class="col-md-6">
-              <div class="service-item">                
-                <h4>Animationen und Simulationen</h4>
-                <p>Physikbasierte Simulationen in Blender und Unity</p>
-				<p>Erstellung von Shapekey / Armature Animationen in Blender</p>
-				<p>Weight Painting</p>
-				<p>Logikbasierte Animationsfolgen in Unity mit Animator</p>
-				<p>Mimik und Sprache virtueller Avatare</p>
-				<p>Motion Capture</p>
-              </div>
-            </div>
-			
-            <div class="col-md-6">
-              <div class="service-item">                
-                <h4>Coding und Scripting</h4>
+			</p>
+                <div class="tm-row tm-testimonial-row">    
+				
+                    <div class="tm-col tm-testimonial-col">
+					
+                        <h4>3D Design</h4>
+							<p>Erstellung realistischer Modelle aus Bildvorlagen</p>
+							<p>Eigene Designs für Objekte, Avatare, Architektur und Landschaften</p>
+							<p>LowPoly Modellierung für GameEngines</p>
+							<p>Erstellung und Bearbeitung von Meshes aus Photogrammetrie- und Satellitendaten</p>
+							<p>UV Editing und Sculpting</p>
+							
+                        <h4>Materialien und Shader</h4>
+							<p>Texture Painting</p>
+							<p>Erstellung prozeduraler Materialien mit Shader Nodes in Blender und Unity</p>
+							<p>Bearbeitung und Verwendung von PBR Materialien</p>
+							<p>Lighting, Compositing und Post Processing</p>
+							<p>Cycles und Eeevee Rendering in Blender</p>
+							<p>Universal- und HighDefinition Render Pipeline in Unity</p>
+							
+                        <h4>Animationen und Simulationen</h4>
+							<p>Physikbasierte Simulationen in Blender und Unity</p>
+							<p>Erstellung von Shapekey / Armature Animationen in Blender</p>
+							<p>Weight Painting</p>
+							<p>Logikbasierte Animationsfolgen in Unity mit Animator</p>
+							<p>Mimik und Sprache virtueller Avatare</p>
+							<p>Motion Capture</p>
+                        
+                    </div>
+                    <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
+					
+					<h4>Coding und Scripting</h4>
                 <p>Java und das Android framework zur Entwicklung mobiler Applikationen</p>
 				<p>HTML, CSS und JavaScript zur Erstellung von webbasierten Inhalten</p>
 				<p>C# für die Implementierung von Funktionen und Spiellogik in Unity</p>
 				<p>Python Scripts für Blender und Collab Notebooks</p>
-              </div>
-            </div>
-			
-			<div class="col-md-6">
-              <div class="service-item">                
-                <h4>Content Creation</h4>
+				
+				<h4>Content Creation</h4>
 				<p>LibreOffice</p>
                 <p>Gimp</p>
 				<p>Inkscape</p>
@@ -164,30 +384,21 @@
 				<p>LMMS</p>
 				<p>DaVince Resolve</p>
 				<p>Blender</p>
-              </div>
-            </div>
-					
-			<div class="col-md-6">
-              <div class="service-item">               
-                <h4>Game Engines</h4>
+				
+				<h4>Game Engines</h4>
                 <p>Unity Engine</p>				
 				<p>Unreal Engine</p>				
 				<p>Source Engine</p>
 				<p>Eigene Entwicklung von Spiellogik</p>
-              </div>
-            </div>
-			
-			<div class="col-md-6">
-              <div class="service-item">               
-                <h4>Virtual Reality</h4>
+                                  
+                    </div>
+                    <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
+                        <h4>Virtual Reality</h4>
                 <p>Asset Creation, Game Design und Project Workflow für HTC Vive und Google Daydream</p>
 				<p>Planung, Implementierung und Durchführung von VR-basierten Studien in der Forschung</p>
-              </div>
-            </div>
-						
-			<div class="col-md-6">
-              <div class="service-item">               
-                <h4>... und vieles mehr</h4>
+				
+				
+                        <h4>... und vieles mehr</h4>
                 <p>Usability Engineering und Prototyping</p>
 				<p>User Experience und Human-Computer-Interaction</p>				
 				<p>Datenbanken</p>
@@ -197,421 +408,63 @@
 				<p>Klassisches und agiles Projektmanagement</p>	
 				<p>Datenerhebung und Auswertung in Forschungsprojekten</p>	
 				<p>IT-Support</>
-              </div>
-            </div>
-          </div>
+				
+				
+                    </div>
+                </div>
+            </div>            
         </div>
-      </section>
 
-      <section class="section my-work" data-section="section3">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Projekte</h2>
-            <div class="line-dec"></div>
-            <span>
-			  Wählen Sie ein Bild aus, um auf die dazugehörige Projektseite weitergeleitet zu werden.
-			</span>
-			<p></p>
-			<span>
-			  Dort erhalten Sie dann weitere Informationen und können die Projektdateien herunterladen.
-			</span>
-          </div>
-          <div class="row">
-            <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>Alle</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="Blender"
-                    name="isotope-filter"
-                  />
-                  <span>Blender</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="Unity"
-                    name="isotope-filter"
-                  />
-                  <span>Unity</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="Android"
-                    name="isotope-filter"
-                  />
-                  <span>Android</span></label
-                >
-				
-				<label
-                  ><input
-                    type="radio"
-                    data-type="Python"
-                    name="isotope-filter"
-                  />
-                  <span>Python</span></label
-                >
-				
-				
-              </form>
-              <div class="isotope-box">
-			  
-			  <!---------------------------------------------------------------------------->
-			  
-                <div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Mühle.png"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/River/"
-                        
-						<h4>River</h4>
-						<span>ein Blender Projekt</span>
-						
-						</a>
-                    </figcaption>					
-                  </figure>
+        <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">Über mich</h2>
+            <div class="tm-row tm-about-row">
+                <div class="tm-col tm-about-col tm-about-left">                    
+                    <img src="img/AH.png" alt="Image" class="tm-mb-30">
+                    
                 </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Fountainpen.png"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Fountainpen/"
-                        
-						<h4>Fountainpen</h4>
-						<span>ein Blender Projekt</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Vulcano.png"
-                      alt="image"
-                    />
-					<p>Animation</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Vulcano/"
-                        
-						<h4>Vulcano</h4>
-						<span>ein ausbrechender Vulkan mit Partikel Simulation. Mit Animation.</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Armor3.png"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Armor/"
-                        
-						<h4>Armor</h4>
-						<span>Eine mittelalterliche Rüstung für Avatare</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/BG2.png"
-                      alt="image"
-                    />
-					<p>Animation</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Berchtesgaden/"
-                        
-						<h4>Berchtesgaden</h4>
-						<span>eine Landschaft erstellt aus Satellitendaten. Mit Animation.</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/wine.png"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Wine/"
-                        
-						<h4>Wine</h4>
-						<span>ein Blender Projekt</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Billard.png"
-                      alt="image"
-                    />
-					<p>Simulation</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Billard/"
-                        
-						<h4>Billard</h4>
-						<span>Eine Rigid Body Simulation</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/coffee.png"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Coffee/"
-                        
-						<h4>Coffee</h4>
-						<span>ein Blender Projekt</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Blender">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/sword.jpg"
-                      alt="image"
-                    />
-					<p>Design</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Dragonsword/"
-                        
-						<h4>Dragonsword</h4>
-						<span>ein Blender Projekt. Mit Animation.</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				
-				<div class="isotope-item" data-type="Unity">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Dialogue.PNG"
-                      alt="image"
-                    />
-					<p>Simulation</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/At_The_Club/"
-                        
-						<h4>At the Club</h4>
-						<span>Konversation mit virtuellen Avataren</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Unity">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Escape.png"
-                      alt="image"
-                    />
-					<p>Spiel</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Escape/"
-                        
-						<h4>Escape</h4>
-						<span>Ein Escape-Room Spiel</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Python">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/vafa.png"
-                      alt="image"
-                    />
-					<p>Anwendung</p>
-                    <figcaption>
-                      <a
-                        href="https://andreashennings.github.io/Visual-Appearance-from-Audio/"
-                        
-						<h4>Visual Appearance from Audio</h4>
-						<span>Ein Projekt mit Python und Google Collab</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-				
-				<div class="isotope-item" data-type="Android">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/Giesskalender.png"
-                      alt="image"
-                    />
-					<p>Anwendung</p>
-                    <figcaption>
-                      <a
-                        href="https://uniregensburg.github.io/ase-abschlussprojekte-ws1920-giesskalender/"
-                        
-						<h4>Giesskalender</h4>
-						<span>Eine App für das Pflanzenmanagement</span>
-						</a>
-                    </figcaption>					
-                  </figure>
-                </div>
-				
-				<!---------------------------------------------------------------------------->
-              </div>
+                <div class="tm-col tm-about-col">
+                    <p class="tm-mb-40">
+                        <h4>Andreas Hennings</h4>
+                  <p>ist Medieninformatiker und 3D Designer.</p>				  
+				  <p>Er hat an der Universität Regensburg studiert, unterrichtet und gearbeitet</p>
+                    </p>
+                    
+                    
+                </div>               
             </div>
-          </div>
         </div>
-      </section>
 
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Ich freue mich auf Ihre Nachricht</h2>
-            <div class="line-dec"></div>
-            <span>Haben Ihnen meine Projekte gefallen?</span>
-			<p></p>
-			<span>Dann lassen Sie uns Ihre Projekte gemeinsam verwirklichen!</span>
-			<div class="line-dec"></div>
-			<span>Email: andreas.hennings@gmx.de</span>
-			<p></p>
-			<span>Telefon: 01522 6588823 (WhatsApp, Signal, Telegram)</span>
-          </div>
-          
+        <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <h2 class="tm-contact-col tm-color-primary tm-page-title tm-mb-40">Kontakt</h2>
+            <h4>Ich freue mich auf Ihre Nachricht!</h4>
+			<span>Haben Ihnen meine Projekte gefallen?</span>
+					<p></p>
+					<span>Dann lassen Sie uns Ihre Projekte gemeinsam verwirklichen!</span>
+					<div class="line-dec"></div>
+					<span>Email: andreas.hennings@gmx.de</span>
+					<p></p>
+					<span>Telefon: 01522 6588823 (WhatsApp, Signal, Telegram)</span>
+            
         </div>
-      </section>
     </div>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <footer class="tm-footer">
+        <span>Copyright &copy; 2021 VirtualCode.de</span>
+        
+</footer>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>    
+    <script src="js/templatemo-script.js"></script>
+</body>
 </html>
