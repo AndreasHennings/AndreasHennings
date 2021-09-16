@@ -294,7 +294,7 @@ a.tm-paging-link:hover {
     overflow: hidden;
     margin: 15px 10px;
     min-width: 480px;
-    max-width: 480px;
+    max-width: 240px;
     max-height: 480px;
     width: 25%;
     background: #3085a3;
